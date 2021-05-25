@@ -61,7 +61,7 @@ public class Runner {
 		//Grabbing first number
 		System.out.println("Enter first number: ");	
 		num1 = scanner.nextInt();
-		//Grabbing second number
+		//Grabbing Second Number
 		System.out.println("Enter second number: ");
 		num2 = scanner.nextInt();
 		
