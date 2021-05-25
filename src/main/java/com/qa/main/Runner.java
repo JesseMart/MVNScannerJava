@@ -51,23 +51,27 @@ public class Runner {
 
 	public static void main(String[] args) {
 		
+		//Declared the two numbers we need 
 		int num1, num2;
 		
+		//Opened a new scanner input
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("CALCULATOR -- ENTER TWO NUMBERS\n");
 		
+		//Grabbing first number
 		System.out.println("Enter first number: ");	
 		num1 = scanner.nextInt();
-		
+		//Grabbing second number
 		System.out.println("Enter second number: ");
 		num2 = scanner.nextInt();
 		
+		//Grabbing the operation using number options as input
 		System.out.println("Enter a number matching the operation to perform: \n 1. Add\n 2. Multiply\n 3. Division\n 4. Subtraction");
 		int result = scanner.nextInt();
 		
 		scanner.close();
 		
-		
+		// Using switch cases to choose right operation to perform
 		switch(result) {
 		case 1:
 			result = num1 + num2;
